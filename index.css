@@ -31,47 +31,50 @@
 }
 
 body {
-  margin: 0;
   background-color: var(--color-eggshell)
 }
 
-article {
+main {
   width: 45em;
   max-width: 90%;
   margin: 8em auto;
-  padding: 2.5em;
 
   background-color: var(--color-white);
   border-radius: 0.75em;
 }
 
-@media screen and (max-width: 768px) {
-  article {
-    max-width: 100%;
-    margin: 0;
-    
-    border-radius: 0;
-  }
-}
-
-article img {
-  width: 100%;
+img {
+  margin: 2.5em 2.5em 0 2.5em;
+  width: calc(100% - 2 * 2.5em);
   border-radius: 0.75em
 }
 
 h1 {
   font: 2.25em "Young Serif", serif;
   color: var(--color-dark-charcoal);
-  margin-top: 1em;
+  margin-bottom: 0.75em;
 }
 
 h2 {
   font: 1.75em "Young Serif", serif;
   color: var(--color-nutmeg);
+  margin-bottom: 1em;
 }
 
-section, p {
+section {
+  margin: 0 2.5em;
   padding: 2em 0;
+}
+
+p:not(:last-child) {
+  margin-bottom: 1.75em;
+}
+
+.section__preparation {
+  padding: 1.5em;
+
+  border-radius: 0.75em;
+  background-color: var(--color-rose-white);
 }
 
 .section__preparation ~ section:not(:last-child) {
@@ -82,15 +85,7 @@ section, p {
   font-weight: bold;
 }
 
-.section__preparation {
-  padding: 1.5em;
-
-  border-radius: 0.75em;
-  background-color: var(--color-rose-white);
-}
-
 .section__preparation h2 {
-  margin-top: 0;
   font: bold 1.25em "Outfit", sans-serif;
   color: var(--color-dark-raspberry);
 }
@@ -100,7 +95,7 @@ section, p {
 }
 
 ul, ol {
-  padding: 0;
+  padding-left: 0.5em;
 }
 
 li::marker {
@@ -110,7 +105,7 @@ li::marker {
 
 li {
   margin: 0.75em 1em;
-  padding-left: 2em;
+  padding-left: 1.25em;
 }
 
 li:last-child {
@@ -137,4 +132,20 @@ td {
 td:nth-child(2) {
   font-weight: bold;
   color: var(--color-nutmeg);
+}
+
+@media screen and (max-width: 768px) {
+  main {
+    max-width: 100%;
+    margin: 0;
+    
+    border-radius: 0;
+  }
+
+  img {
+    margin: 0;
+    width: 100%;
+    
+    border-radius: 0;
+  }
 }
