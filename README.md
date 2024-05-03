@@ -20,14 +20,11 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 ### Screenshot
 
-![](./screenshot.jpg)
-
-Add a screenshot of your solution.
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [GitHub Pages - recipe-page-challenge](https://mkalmetieva.github.io/recipe-page-challenge/)
 
 ## My process
 
