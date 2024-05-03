@@ -21,7 +21,7 @@
 
 * {
   font-family: "Outfit", sans-serif;
-  color: var(--color-dark-charcoal);
+  color: var(--color-wenge-brown);
   line-height: 1.5;
 }
 
@@ -32,7 +32,7 @@ body {
 
 article {
   width: 50%;
-  margin: 5em auto;
+  margin: 8em auto;
   padding: 2.5em;
 
   background-color: var(--color-white);
@@ -54,7 +54,8 @@ article img {
 }
 
 h1 {
-  font: 2em "Young Serif", serif;
+  font: 2.5em "Young Serif", serif;
+  color: var(--color-dark-charcoal);
 }
 
 h2 {
@@ -89,16 +90,16 @@ section:not(#preparation-subsection):not(:last-child) {
 
 ul, ol {
   padding: 0;
-  list-style-position: inside;
 }
 
-ol li {
-  margin: 0.5em 0;
-}
-
-ol li::marker {
+li::marker {
   font-weight: bold;
   color: var(--color-nutmeg);
+}
+
+li {
+  margin: 0.75em 1em;
+  padding-left: 2em;
 }
 
 table {
