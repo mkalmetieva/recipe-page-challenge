@@ -32,14 +32,12 @@ This is a solution to the [Recipe page challenge on Frontend Mentor](https://www
 
 - Semantic HTML5 markup
 - CSS custom properties
-- External fonts included into CSS
 - Mobile-first workflow
+- External fonts included into CSS
+- Using CSS variables for colors
 
 ### Continued development
 
-- Fix: on mobile the page is wider than 100%
-- Fix: some paddings are off
-- Fix: increase indent between list markers and text
-
 ### Useful resources
 
+- [Everything You Need to Know About the Gap After the List Marker](https://css-tricks.com/everything-you-need-to-know-about-the-gap-after-the-list-marker/) - The length of the gap can be increased by adding a padding-left to `<ul>`, but only if the marker is positioned outside the list item (the default mode).
