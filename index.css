@@ -43,6 +43,13 @@ main {
   border-radius: 0.75em;
 }
 
+footer {
+  height: 2rem;
+
+  padding: 0.5rem 0;
+  text-align: center;
+}
+
 article {
   padding: 0 2.5em;
 }
